@@ -83,7 +83,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
 
 const useStyles = makeStyles({
     root: {
-        backgroundColor: 'red',
+        backgroundColor: '#9fa8da',
         color: (props) => props.color,
     },
 });
