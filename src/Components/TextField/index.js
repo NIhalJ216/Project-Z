@@ -11,7 +11,8 @@ const TextFieldWrapper = ({
         ...field,
         ...otherProps,
         fullWidth: true,
-        variant: 'outlined'
+        variant: 'outlined',
+        size: 'small',
     }
     if (meta && meta.touched && meta.error) {
         configTextfield.error = true;
